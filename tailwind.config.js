@@ -1,9 +1,13 @@
 module.exports = {
+  prefix: '',
   content: [
-    '*.html'
+    'index.html'
   ],
   theme: {
-    extend: {},
+    screens: {
+      'lg': '1200px',
+      'md': '950px',
+    },
   },
   plugins: [],
 }
